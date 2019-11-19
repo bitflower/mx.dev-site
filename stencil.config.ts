@@ -8,7 +8,14 @@ export const config: Config = {
   outputTargets: [
     {
       type: 'www',
-      serviceWorker: null
+      baseUrl: 'https://www.mx.dev/',
+      serviceWorker: {
+        unregister: true
+      }
+    },
+    {
+      type: 'dist-hydrate-script',
+      dir: 'dist/prerender'
     }
   ],
   globalScript: 'src/global/app.ts',
