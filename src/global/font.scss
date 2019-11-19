@@ -1,0 +1,96 @@
+$font-path: '../assets/fonts/' !default;
+$montserrat-font-path: $font-path !default;
+
+$webfonts-montserrat-settings: (
+  font-family: 'Montserrat',
+  base-names: (
+    100: (
+      normal: montserrat-thin-webfont
+    ),
+    200: (
+      normal: montserrat-extralight-webfont
+    ),
+    300: (
+      normal: montserrat-light-webfont
+    ),
+    400: (
+      normal: montserrat-regular-webfont
+    ),
+    500: (
+      normal: montserrat-medium-webfont
+    ),
+    600: (
+      normal: montserrat-semibold-webfont
+    ),
+    700: (
+      normal: montserrat-bold-webfont
+    ),
+    800: (
+      normal: montserrat-extrabold-webfont
+    ),
+    900: (
+      normal: montserrat-black-webfont
+    )
+  )
+) !default;
+
+$webfonts-montserrat-include: (
+  100: (
+    normal
+  ),
+  200: (
+    normal
+  ),
+  300: (
+    normal
+  ),
+  400: (
+    normal
+  ),
+  500: (
+    normal
+  ),
+  600: (
+    normal
+  ),
+  700: (
+    normal
+  ),
+  800: (
+    normal
+  ),
+  900: (
+    normal
+  )
+) !default;
+
+@mixin generate-webfonts-montserrat {
+  $font-family: map-get($webfonts-montserrat-settings, font-family);
+  $base-names: map-get($webfonts-montserrat-settings, base-names);
+
+  @each $weight, $styles in $webfonts-montserrat-include {
+    @each $style in $styles {
+      @if (map-has-key($base-names, $weight)) {
+        $base-names-for-given-weight: map-get($base-names, $weight);
+        @if (map-has-key($base-names-for-given-weight, $style)) {
+          $base-name: map-get($base-names-for-given-weight, $style);
+
+          @font-face {
+            font-family: $font-family;
+            src: url('#{$montserrat-font-path}#{$base-name}.eot');
+            src: url('#{$montserrat-font-path}#{$base-name}.eot?#iefix')
+                format('embedded-opentype'),
+              url('#{$montserrat-font-path}#{$base-name}.woff2') format('woff2'),
+              url('#{$montserrat-font-path}#{$base-name}.woff') format('woff'),
+              url('#{$montserrat-font-path}#{$base-name}.ttf')
+                format('truetype');
+            font-weight: $weight;
+            font-style: $style;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include generate-webfonts-montserrat;
