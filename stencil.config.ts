@@ -8,7 +8,7 @@ export const config: Config = {
   outputTargets: [
     {
       type: 'www',
-      baseUrl: 'https://www.mx.dev/',
+      baseUrl: 'https://hungry-agnesi-fdd5ab.netlify.com/',
       serviceWorker: {
         unregister: true
       }
