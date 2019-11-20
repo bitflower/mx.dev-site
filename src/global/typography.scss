@@ -1,5 +1,6 @@
-html {
-  font-size: var(--mm-font-size);
+html,
+body {
+  font-size: var(--mm-font-size-base);
   font-family: open-sans;
   color: var(--mm-color-light-base);
   -webkit-font-smoothing: antialiased;
@@ -21,4 +22,8 @@ h1,
 h2,
 h3 {
   font-family: Montserrat;
+}
+
+p {
+  line-height: 30px;
 }

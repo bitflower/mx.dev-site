@@ -16,6 +16,10 @@ body {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
+
+  &.wide {
+    max-width: 1200px;
+  }
 }
 
 .overlap {
@@ -24,6 +28,7 @@ body {
 
 .box {
   border-radius: 12px;
+  border: 1px solid var(--mm-color-light-shade);
 }
 
 .text-center {
