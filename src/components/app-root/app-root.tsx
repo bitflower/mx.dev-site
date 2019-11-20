@@ -8,9 +8,9 @@ export class AppRoot {
   render() {
     return (
       <ion-app>
-        <ion-header>
+        {/* <ion-header>
           <mm-header />
-        </ion-header>
+        </ion-header> */}
         <ion-router useHash={false}>
           <ion-route url='/' component='app-home' />
           <ion-route url='/design-system' component='app-profile' />

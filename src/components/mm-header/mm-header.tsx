@@ -16,7 +16,7 @@ export class MmHeader {
   render() {
     return (
       <Host>
-        <header>
+        <header class='bg-primary-base'>
           <h3>
             <span class='title'>Matthias Max</span>
             <span class='subtitle divider'>&nbsp;|&nbsp;</span>

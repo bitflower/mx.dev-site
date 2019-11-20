@@ -3,19 +3,22 @@
 :host {
 }
 .hero {
-  padding-top: 210px;
+  padding-top: 65px;
+  //   @media screen and (max-width: $break-large) {
+  //     padding-top: 65px;
+  //   }
 }
 .manifest {
-  font-size: 50px;
-  max-width: 682px;
+  max-width: 850px;
   margin: 0 auto;
 
-  text-align: right;
+  text-align: center;
   padding: 120px;
   color: var(--mm-color-light-shade);
   position: relative;
   @media screen and (min-width: $break-large) {
     margin-right: 0;
+    text-align: right;
     &:before {
       position: absolute;
       content: ' ';
@@ -26,13 +29,24 @@
       top: 25%;
     }
   }
+  @media screen and (max-width: $break-large) {
+    padding: 30px;
+  }
 
   h1 {
+    font-size: 50px;
+    @media screen and (max-width: $break-large) {
+      font-size: var(--mm-font-size-h1);
+    }
     &:after {
       content: '“';
       font-family: Montserrat;
       right: 100px;
       position: absolute;
+      @media screen and (max-width: $break-large) {
+        right: unset;
+        position: relative;
+      }
     }
   }
 }
@@ -41,4 +55,5 @@
   background-color: var(--mm-color-primary-shade);
   padding: 0 3px;
   border-radius: 11px;
+  border: 1px solid #c72126;
 }

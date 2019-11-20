@@ -9,6 +9,7 @@ export class AppHome {
     return (
       <Host>
         <ion-content>
+          <mm-header />
           <section class='vh100 bg-primary-base hero'>
             <div class='content'>
               <div class='manifest'>
