@@ -1,15 +1,35 @@
+@import '../../global/variables.scss';
+
 mm-header {
   h3 {
     margin: 0;
     text-align: center;
     padding: 65px;
+    word-break: break-word;
   }
   .title {
     text-transform: uppercase;
+    white-space: nowrap;
+    @media screen and (max-width: $break-large) {
+      padding-bottom: 30px;
+      display: inline-block;
+    }
   }
   .subtitle {
     font-weight: 400;
     margin-left: 1px;
+    white-space: nowrap;
+    @media screen and (max-width: $break-large) {
+      display: inline-block;
+      width: 100%;
+      white-space: normal;
+    }
+  }
+
+  .divider {
+    @media screen and (max-width: $break-large) {
+      display: none;
+    }
   }
   .slogan {
     position: absolute;
@@ -17,5 +37,10 @@ mm-header {
     left: 50%;
     margin-left: -265px;
     margin-top: 6px;
+    @media screen and (max-width: $break-large) {
+      top: 0;
+      margin-left: -25px;
+      margin-top: 85px;
+    }
   }
 }

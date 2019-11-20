@@ -19,8 +19,9 @@ export class MmHeader {
         <header>
           <h3>
             <span class='title'>Matthias Max</span>
+            <span class='subtitle divider'>&nbsp;|&nbsp;</span>
             <span class='subtitle'>
-              &nbsp;| Creative Web Technologist & Entrepreneur
+              Creative Web Technologist & Entrepreneur
             </span>
           </h3>
           <div class='slogan' innerHTML={svg}></div>
