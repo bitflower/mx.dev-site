@@ -11,9 +11,7 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 export namespace Components {
   interface AppHome {}
-  interface AppProfile {
-    'name': string;
-  }
+  interface AppProfile {}
   interface AppRoot {}
   interface MmBadge {
     'value': string;
@@ -56,9 +54,7 @@ declare global {
 
 declare namespace LocalJSX {
   interface AppHome {}
-  interface AppProfile {
-    'name'?: string;
-  }
+  interface AppProfile {}
   interface AppRoot {}
   interface MmBadge {
     'value'?: string;

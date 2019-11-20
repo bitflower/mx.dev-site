@@ -5,13 +5,12 @@ import { Component, h } from '@stencil/core';
   styleUrl: 'app-root.css'
 })
 export class AppRoot {
-
   render() {
     return (
       <ion-app>
         <ion-router useHash={false}>
-          <ion-route url="/" component="app-home" />
-          <ion-route url="/profile/:name" component="app-profile" />
+          <ion-route url='/' component='app-home' />
+          <ion-route url='/design-system' component='app-profile' />
         </ion-router>
         <ion-nav />
       </ion-app>
