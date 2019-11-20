@@ -11,22 +11,18 @@ export class AppHome {
         <header>
           <h3>Matthias Max</h3>
         </header>
-        <section
-          class='vh100'
-          style={{ 'background-color': 'var(--mm-color-primary)' }}
-        >
-          <h1>Heading 1</h1>
-          <h2>Heading 2</h2>
-          <h3>Heading 3</h3>
-          <mm-badge value='60+ apps' />
-          <mm-badge value='200+ components' />
-          <mm-badge value='TDD' />
-          <mm-badge value='Hi' />
+        <section class='vh100 bg-primary-base'>
+          <div class='content'>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <mm-badge value='60+ apps' />
+            <mm-badge value='200+ components' />
+            <mm-badge value='TDD' />
+            <mm-badge value='Hi' />
+          </div>
         </section>
-        <section
-          class='vh50'
-          style={{ 'background-color': 'var(--mm-color-secondary)' }}
-        >
+        <section class='vh50 bg-secondary-base'>
           <mm-badge value='Hi' />
         </section>
       </Host>

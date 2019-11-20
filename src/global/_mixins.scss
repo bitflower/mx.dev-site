@@ -1,0 +1,12 @@
+@mixin color-modifiers($attribute: 'color', $prefix: '-', $separator: '-') {
+  @each $name, $color in $colors {
+    &#{$prefix}#{$name} {
+      @each $tone, $hex in $color {
+        &#{$separator}#{$tone} {
+          //   #{$attribute}: $hex;
+          #{$attribute}: var(--mm-color-#{$name}-#{$tone});
+        }
+      }
+    }
+  }
+}
