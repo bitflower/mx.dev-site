@@ -20,8 +20,17 @@ export class AppHome {
               </div>
             </div>
           </section>
-          <section class='vh50 bg-secondary-base'>
-            <mm-badge value='Hi' />
+          <section class='vh50 bg-light-base'>
+            <div class='content text-center'>
+              <h2>Hi, I'm Matt.</h2>
+            </div>
+          </section>
+          <section class='vh50 bg-light-base'>
+            <div class='content'>
+              <div class='bg-light-base overlap box overlap-container'>
+                <h2>Hi, I'm Matt.</h2>
+              </div>
+            </div>
           </section>
         </ion-content>
       </Host>

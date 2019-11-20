@@ -1,24 +1,14 @@
-:root {
-  // MM Colors
-  --mm-color-primary: #cb2c31;
-  --mm-color-primary-base: #cb2c31;
-  --mm-color-primary-shade: #cb2328;
-  --mm-color-primary-tint: #cb3c41;
-  --mm-color-secondary: blue;
-  --mm-color-secondary-base: blue;
-  --mm-color-secondary-shade: blue;
-  --mm-color-secondary-tint: blue;
-  --mm-tertiary: yellow;
-  --mm-color-light: #ffffff;
-  --mm-color-light-base: #ffffff;
-  --mm-color-light-shade: #fbcfd0;
+@import './mixins';
 
-  --mm-background: #ffffff;
+:root {
+  @include css-var-colors();
+
+  --mm-background: var(--mm-color-light-base);
 
   // MM Font
   --mm-font-size-base: 14px;
   --mm-font-size-h1: 36px;
-  --mm-font-size-h2: 27px;
+  --mm-font-size-h2: 29px;
   --mm-font-size-h3: 22px;
 
   // MM PADDINGS, MARGINS

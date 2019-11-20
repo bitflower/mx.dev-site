@@ -10,3 +10,11 @@
     }
   }
 }
+
+@mixin css-var-colors() {
+  @each $name, $color in $colors {
+    @each $tone, $hex in $color {
+      --mm-color-#{$name}-#{$tone}: #{$hex};
+    }
+  }
+}

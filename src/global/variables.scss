@@ -1,18 +1,28 @@
 $colors: (
   primary: (
-    base: #cb2c31,
-    shade: #cb2328,
-    tint: #cb3c41
+    base: #7510f7,
+    shade: #6a10dd,
+    tint: #7f24f5
   ),
   secondary: (
-    base: blue,
-    shade: blue,
-    tint: blue
+    base: #2e86ab,
+    shade: #2e86ab,
+    tint: #2e86ab
   ),
   tertiary: (
-    base: yellow,
-    shade: yellow,
-    tint: yellow
+    base: #ffba08,
+    shade: #ffba08,
+    tint: #ffba08
+  ),
+  dark: (
+    base: #200445,
+    shade: #200445,
+    tint: #200445
+  ),
+  light: (
+    base: #ffffff,
+    shade: #e9e0f5,
+    tint: #e9e0f5
   )
 );
 
