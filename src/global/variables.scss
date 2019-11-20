@@ -1,28 +1,28 @@
 $colors: (
   primary: (
     base: #7510f7,
-    shade: #6a10dd,
-    tint: #7f24f5
+    shade: darken(#7510f7, 3%),
+    tint: lighten(#7510f7, 3%)
   ),
   secondary: (
     base: #2e86ab,
-    shade: #2e86ab,
-    tint: #2e86ab
+    shade: darken(#2e86ab, 3%),
+    tint: lighten(#2e86ab, 3%)
   ),
   tertiary: (
     base: #ffba08,
-    shade: #ffba08,
-    tint: #ffba08
+    shade: darken(#ffba08, 3%),
+    tint: lighten(#ffba08, 3%)
   ),
   dark: (
     base: #200445,
-    shade: #200445,
-    tint: #200445
+    shade: darken(#200445, 3%),
+    tint: lighten(#200445, 3%)
   ),
   light: (
     base: #ffffff,
-    shade: #e9e0f5,
-    tint: #e9e0f5
+    shade: darken(#ffffff, 5%),
+    tint: lighten(#ffffff, 3%)
   )
 );
 
