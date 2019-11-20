@@ -3,7 +3,8 @@
 mm-header {
   color: var(--mm-color-light);
   header {
-    position: relative;
+    position: absolute;
+    width: 100%;
   }
   h3 {
     margin: 0;
