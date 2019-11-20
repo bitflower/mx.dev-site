@@ -8,21 +8,24 @@ export class AppHome {
   render() {
     return (
       <Host>
+        <header>
+          <h3>Matthias Max</h3>
+        </header>
         <section
           class='vh100'
-          style={{ 'background-color': 'var(--mm-primary)' }}
+          style={{ 'background-color': 'var(--mm-color-primary)' }}
         >
           <h1>Heading 1</h1>
           <h2>Heading 2</h2>
           <h3>Heading 3</h3>
-          <mm-badge value='Hi' />
-          <mm-badge value='Hi' />
-          <mm-badge value='Hi' />
+          <mm-badge value='60+ apps' />
+          <mm-badge value='200+ components' />
+          <mm-badge value='TDD' />
           <mm-badge value='Hi' />
         </section>
         <section
           class='vh50'
-          style={{ 'background-color': 'var(--mm-secondary)' }}
+          style={{ 'background-color': 'var(--mm-color-secondary)' }}
         >
           <mm-badge value='Hi' />
         </section>

@@ -4,14 +4,15 @@
 
 .badge {
   display: inline-flex;
-  height: calc(var(--mm-font-size-base) + calc(var(--mm-padding) / 2));
-  font-size: 85%;
+  height: calc(var(--mm-font-size-base) + calc(var(--mm-padding) / 3));
+  font-size: 75%;
   background-color: var(--mm-background);
-  // padding: calc(var(--mm-padding) / 2) var(--mm-padding);
-  padding: calc(var(--mm-padding) / 2);
+  padding: calc(var(--mm-padding) / 2.5) var(--mm-padding);
   border-radius: var(--mm-font-size-base);
-  min-width: calc(var(--mm-padding) * 3);
+  min-width: var(--mm-padding);
   justify-content: center;
   align-items: center;
   box-shadow: var(--mm-shadow-l1);
+  color: var(--mm-color-primary);
+  font-weight: 700;
 }

@@ -1,0 +1,20 @@
+html {
+  font-size: var(--mm-font-size);
+  font-family: open-sans;
+  color: var(--mm-color-light);
+}
+
+h1 {
+  font-size: var(--mm-font-size-h1);
+}
+h2 {
+  font-size: var(--mm-font-size-h2);
+}
+h3 {
+  font-size: var(--mm-font-size-h3);
+}
+h1,
+h2,
+h3 {
+  font-family: Montserrat;
+}

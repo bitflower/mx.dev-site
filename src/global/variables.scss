@@ -1,15 +1,20 @@
 :root {
+  // MM Colors
+  --mm-color-primary: #cb2c31;
+  --mm-color-primary-shade: #cb2328;
+  --mm-color-primary-tint: #cb3c41;
+  --mm-color-secondary: red;
+  --mm-tertiary: red;
+  --mm-color-light: #ffffff;
+  --mm-color-light-shade: #ffd7d8;
+
+  --mm-background: #ffffff;
+
   // MM Font
   --mm-font-size-base: 14px;
   --mm-font-size-h1: 36px;
   --mm-font-size-h2: 28px;
   --mm-font-size-h3: 24px;
-
-  // MM Colors
-  --mm-primary: #cb2c31;
-  --mm-secondary: red;
-  --mm-tertiary: red;
-  --mm-background: #ffffff;
 
   // MM PADDINGS, MARGINS
   --mm-padding: 10px;
