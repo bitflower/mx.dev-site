@@ -10,7 +10,8 @@ export const config: Config = {
       type: 'www',
       baseUrl: 'https://hungry-agnesi-fdd5ab.netlify.com/',
       serviceWorker: {
-        unregister: true
+        unregister: true,
+        globPatterns: ['**/*.{js,css,json,html,ico,png,svg,ttf,woff,woff2}']
       },
       copy: [{ src: '_redirects' }]
     },
