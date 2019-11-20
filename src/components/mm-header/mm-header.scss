@@ -11,8 +11,9 @@ mm-header {
     text-transform: uppercase;
     white-space: nowrap;
     @media screen and (max-width: $break-large) {
-      padding-bottom: 30px;
+      padding-bottom: 45px;
       display: inline-block;
+      font-size: 135%;
     }
   }
   .subtitle {
@@ -40,8 +41,8 @@ mm-header {
     margin-top: 6px;
     @media screen and (max-width: $break-large) {
       top: 0;
-      margin-left: -25px;
-      margin-top: 85px;
+      margin-left: 5px;
+      margin-top: 95px;
     }
   }
 }
