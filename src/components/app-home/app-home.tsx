@@ -8,10 +8,8 @@ export class AppHome {
   render() {
     return (
       <Host>
-        <header>
-          <h3>Matthias Max</h3>
-        </header>
-        <section class='vh100 bg-primary-base'>
+        {/* <ion-content> */}
+        <section class='vh100 bg-primary-base hero'>
           <div class='content'>
             <h1>Heading 1</h1>
             <h2>Heading 2</h2>
@@ -25,6 +23,7 @@ export class AppHome {
         <section class='vh50 bg-secondary-base'>
           <mm-badge value='Hi' />
         </section>
+        {/* </ion-content> */}
       </Host>
     );
   }

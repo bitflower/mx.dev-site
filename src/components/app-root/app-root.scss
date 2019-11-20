@@ -1,0 +1,5 @@
+.header-md {
+  &:after {
+    background-image: none !important; // Remove IONIC header shadow
+  }
+}
