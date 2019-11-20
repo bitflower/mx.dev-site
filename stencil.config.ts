@@ -11,7 +11,8 @@ export const config: Config = {
       baseUrl: 'https://hungry-agnesi-fdd5ab.netlify.com/',
       serviceWorker: {
         unregister: true
-      }
+      },
+      copy: [{ src: '_redirects' }]
     },
     {
       type: 'dist-hydrate-script',
