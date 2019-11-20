@@ -16,7 +16,7 @@ mm-header {
     text-transform: uppercase;
     white-space: nowrap;
     @media screen and (max-width: $break-large) {
-      padding-bottom: 45px;
+      padding-bottom: 30px;
       display: inline-block;
       font-size: 135%;
     }
@@ -29,7 +29,8 @@ mm-header {
       display: inline-block;
       width: 100%;
       white-space: normal;
-      font-size: 75%;
+      font-size: 51%;
+      transform: translateY(-87px);
     }
   }
 
