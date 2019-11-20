@@ -1,5 +1,7 @@
+@import './mixins';
+
 .vh100 {
-  height: 85vh; //100vh;
+  height: 80vh; //100vh;
   // height: calc(100vh - var(--mm-padding));
 }
 
@@ -11,4 +13,11 @@
 }
 .vh85 {
   height: 85vh;
+  @media screen and (max-width: $break-large) {
+    height: auto;
+  }
+}
+
+.padding {
+  @include padding-modifiers();
 }

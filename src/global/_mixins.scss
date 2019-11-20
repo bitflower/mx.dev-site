@@ -18,3 +18,14 @@
     }
   }
 }
+
+@mixin padding-modifiers($side: 'side', $prefix: '-') {
+  @for $i from 1 through 20 {
+    &#{$prefix}#{$side}-#{$i} {
+      padding: 0 calc(var(--mm-padding) * #{$i});
+    }
+    &#{$prefix}#{'tb'}-#{$i} {
+      padding: calc(var(--mm-padding) * #{$i}) 0;
+    }
+  }
+}

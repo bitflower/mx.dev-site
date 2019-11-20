@@ -19,6 +19,9 @@ body {
 
   &.wide {
     max-width: 1200px;
+    @media screen and (max-width: $break-large) {
+      max-width: calc(100% - var(--mm-padding));
+    }
   }
 }
 

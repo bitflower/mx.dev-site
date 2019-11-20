@@ -21,7 +21,7 @@ export class AppHome {
             </div>
           </section>
           <section class='vh85 bg-light-base matt color-dark-base'>
-            <div class='content text-center'>
+            <div class='content padding-side-3 text-center'>
               <h2>Hi, I'm Matt. Great to meet you.</h2>
               <p>
                 For the last 5 years I’ve been building enterprise application
