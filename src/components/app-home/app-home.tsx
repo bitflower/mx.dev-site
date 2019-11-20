@@ -10,7 +10,7 @@ export class AppHome {
       <Host>
         <ion-content>
           <mm-header />
-          <section class='vh100 bg-primary-base hero'>
+          <section class='vh100 bg-light-base hero color-dark-base'>
             <div class='content'>
               <div class='manifest'>
                 <h1>
@@ -20,8 +20,8 @@ export class AppHome {
               </div>
             </div>
           </section>
-          <section class='vh85 bg-light-base matt color-dark-base'>
-            <div class='content padding-side-3 text-center'>
+          <section class='bg-primary-base matt color-light-shade'>
+            <div class='content padding-side-3 text-center padding-bm-22'>
               <h2>Hi, I'm Matt. Great to meet you.</h2>
               <p>
                 For the last 5 years I’ve been building enterprise application
@@ -37,14 +37,14 @@ export class AppHome {
               </p>
               <p>
                 Value on a larger scale is almost always the sum of small added
-                values. So always remember: LEGO blocks can also be disassembled
-                - which sometimes id the right thing to do ;-) Stick to
-                real-world values will almost always lead to the right decisions
-                - both technical and economical.
+                values. That's why I try to remember that LEGO blocks can also
+                be disassembled - which sometimes is the right thing to do to
+                make progress. Stick to real-world values will almost always
+                lead to the right decisions - both technical and economical.
               </p>
             </div>
           </section>
-          <section class='vh50 bg-primary-base'>
+          <section class='vh50 bg-light-base'>
             <div class='content wide overlap'>
               <div class='bg-light-base box overlap-container'>
                 <h2>More ...</h2>

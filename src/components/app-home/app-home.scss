@@ -13,7 +13,6 @@
 
   text-align: center;
   padding: 120px;
-  color: var(--mm-color-light-shade);
   position: relative;
   @media screen and (min-width: $break-large) {
     margin-right: 0;
@@ -23,7 +22,7 @@
       content: ' ';
       height: 50%;
       width: 2px;
-      background-color: #fff;
+      background-color: var(--mm-color-primary-base);
       left: 0;
       top: 25%;
     }
@@ -50,11 +49,11 @@
   }
 }
 .value {
-  color: var(--mm-color-light-base);
-  background-color: var(--mm-color-primary-shade);
+  color: var(--mm-dark-shade);
+  background-color: var(--mm-color-light-shade);
   padding: 0 3px;
   border-radius: 11px;
-  border: 1px solid var(--mm-color-primary-shade);
+  border: 1px solid var(--mm-color-light-shade);
 }
 
 .overlap-container {

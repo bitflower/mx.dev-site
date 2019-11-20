@@ -2,6 +2,9 @@
 
 .color {
   @include color-modifiers;
+  // path {
+  //   @include color-modifiers($attribute: 'fill');
+  // }
 }
 
 .bg {

@@ -3,7 +3,6 @@
     &#{$prefix}#{$name} {
       @each $tone, $hex in $color {
         &#{$separator}#{$tone} {
-          //   #{$attribute}: $hex;
           #{$attribute}: var(--mm-color-#{$name}-#{$tone});
         }
       }
@@ -20,12 +19,18 @@
 }
 
 @mixin padding-modifiers($side: 'side', $prefix: '-') {
-  @for $i from 1 through 20 {
+  @for $i from 1 through 25 {
     &#{$prefix}#{$side}-#{$i} {
       padding: 0 calc(var(--mm-padding) * #{$i});
     }
     &#{$prefix}#{'tb'}-#{$i} {
       padding: calc(var(--mm-padding) * #{$i}) 0;
+    }
+    &#{$prefix}#{'bm'}-#{$i} {
+      padding-bottom: calc(var(--mm-padding) * #{$i});
+    }
+    &#{$prefix}#{'tp'}-#{$i} {
+      padding-top: calc(var(--mm-padding) * #{$i});
     }
   }
 }
