@@ -8,7 +8,7 @@ export class AppProfile {
   render() {
     return (
       <Host>
-        <ion-content>
+        <ion-content scrollY={true}>
           <section
             class='vh100'
             style={{ 'background-color': 'var(--mm-color-primary)' }}
