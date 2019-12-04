@@ -11,7 +11,7 @@
   img.legos {
     position: absolute;
     right: 19%;
-    bottom: -66px;
+    bottom: 0;
     @media screen and (max-width: $break-large) {
       right: 0;
       max-width: 400px;
