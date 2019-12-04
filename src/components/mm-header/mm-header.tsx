@@ -18,7 +18,7 @@ export class MmHeader {
       <Host>
         <header class='bg-light-base color-dark-shade'>
           <h3>
-            <span class='title'>Matthias Max</span>
+            <span class='title'>Build with Matt</span>
             <span class='subtitle divider'>&nbsp;|&nbsp;</span>
             <span class='subtitle'>
               Creative Web Technologist & Entrepreneur

@@ -11,6 +11,7 @@ export class AppHome {
         <ion-content>
           <mm-header />
           <section class='vh100 bg-light-base hero color-dark-base'>
+            <img src='assets/legos.png' class='legos fly' />
             <div class='content'>
               <div class='manifest'>
                 <h1>
@@ -59,6 +60,7 @@ export class AppHome {
               </div>
             </div>
           </section>
+          {/* <mm-bricks /> */}
         </ion-content>
       </Host>
     );

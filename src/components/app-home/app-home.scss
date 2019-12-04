@@ -2,10 +2,22 @@
 
 :host {
 }
+
 .hero {
   padding-top: 80px;
   display: flex;
   align-items: center;
+
+  img.legos {
+    position: absolute;
+    right: 19%;
+    bottom: -66px;
+    @media screen and (max-width: $break-large) {
+      right: 0;
+      max-width: 400px;
+      bottom: 20px;
+    }
+  }
 }
 .manifest {
   max-width: 850px;
