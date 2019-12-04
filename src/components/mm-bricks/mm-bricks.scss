@@ -1,0 +1,23 @@
+:host {
+}
+.bricks {
+  //   position: fixed;
+  //   display: block;
+  //   top: 0;
+  //   bottom: 0;
+  //   left: 0;
+  //   right: 0;
+  //   z-index: 0;
+}
+.brick {
+  width: 10%;
+  height: 40px;
+  background: red;
+  border-radius: 6px;
+  transition: all 0.5s ease;
+  position: fixed;
+  top: -40px;
+  &.land {
+    top: calc(100vh - 40px);
+  }
+}

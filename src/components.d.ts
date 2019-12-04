@@ -16,6 +16,7 @@ export namespace Components {
   interface MmBadge {
     'value': string;
   }
+  interface MmBricks {}
   interface MmHeader {}
 }
 
@@ -46,6 +47,12 @@ declare global {
     new (): HTMLMmBadgeElement;
   };
 
+  interface HTMLMmBricksElement extends Components.MmBricks, HTMLStencilElement {}
+  var HTMLMmBricksElement: {
+    prototype: HTMLMmBricksElement;
+    new (): HTMLMmBricksElement;
+  };
+
   interface HTMLMmHeaderElement extends Components.MmHeader, HTMLStencilElement {}
   var HTMLMmHeaderElement: {
     prototype: HTMLMmHeaderElement;
@@ -56,6 +63,7 @@ declare global {
     'app-profile': HTMLAppProfileElement;
     'app-root': HTMLAppRootElement;
     'mm-badge': HTMLMmBadgeElement;
+    'mm-bricks': HTMLMmBricksElement;
     'mm-header': HTMLMmHeaderElement;
   }
 }
@@ -67,6 +75,7 @@ declare namespace LocalJSX {
   interface MmBadge {
     'value'?: string;
   }
+  interface MmBricks {}
   interface MmHeader {}
 
   interface IntrinsicElements {
@@ -74,6 +83,7 @@ declare namespace LocalJSX {
     'app-profile': AppProfile;
     'app-root': AppRoot;
     'mm-badge': MmBadge;
+    'mm-bricks': MmBricks;
     'mm-header': MmHeader;
   }
 }
@@ -88,6 +98,7 @@ declare module "@stencil/core" {
       'app-profile': LocalJSX.AppProfile & JSXBase.HTMLAttributes<HTMLAppProfileElement>;
       'app-root': LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
       'mm-badge': LocalJSX.MmBadge & JSXBase.HTMLAttributes<HTMLMmBadgeElement>;
+      'mm-bricks': LocalJSX.MmBricks & JSXBase.HTMLAttributes<HTMLMmBricksElement>;
       'mm-header': LocalJSX.MmHeader & JSXBase.HTMLAttributes<HTMLMmHeaderElement>;
     }
   }
