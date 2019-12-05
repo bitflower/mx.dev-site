@@ -39,17 +39,4 @@ mm-header {
       display: none;
     }
   }
-  .slogan {
-    position: absolute;
-    top: 50%;
-    left: 75%;
-    margin-left: -120px;
-    margin-top: 6px;
-    @media screen and (max-width: $break-large) {
-      // top: 0;
-      // margin-left: 5px;
-      // margin-top: 89px;
-      display: none;
-    }
-  }
 }

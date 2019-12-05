@@ -23,7 +23,7 @@ export class AppHome {
           </section>
           <section class='bg-primary-base matt color-light-shade'>
             <div class='content padding-side-3 text-center padding-bm-22'>
-              <h2>Hi, I'm Matt. Great to meet you.</h2>
+              <h2>Hi, I'm Matthias. Great to meet you.</h2>
               <p>
                 For the last 5 years I’ve been building enterprise application
                 for large corporations. Happily switching between requirements
