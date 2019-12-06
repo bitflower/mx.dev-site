@@ -1,8 +1,8 @@
 {
-  "name": "pwa",
+  "name": "matthiasmax.com",
   "private": true,
   "version": "0.0.1",
-  "description": "pwa",
+  "description": "Personal developer website of Matthias Max",
   "license": "MIT",
   "files": [
     "dist/"
