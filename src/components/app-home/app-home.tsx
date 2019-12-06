@@ -31,7 +31,7 @@ const svg: string = `
                         <tspan x="116.46" y="48">TECHNOLOGY</tspan>
                     </text>
                 </g>
-                <g id="all-technologies" stroke-width="1" fill-rule="evenodd" transform="translate(-123.000000, 26.000000)" stroke="#7510F7" stroke-linecap="round" stroke-linejoin="round">
+                <g id="all-technologies" stroke-width="1" fill-rule="evenodd" transform="translate(-123.000000, 26.000000)" stroke="#00FFF4" stroke-linecap="round" stroke-linejoin="round">
                     <g id="technologies" fill-rule="nonzero" opacity="0.15" stroke-width="2">
                         <path d="M0,0.1 C81.1945321,0.1 121.791798,0.1 121.791798,0.1" id="16"></path>
                         <path d="M0,6.1 C81.1945321,6.1 121.791798,6.1 121.791798,6.1" id="15"></path>

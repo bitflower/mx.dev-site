@@ -9,6 +9,9 @@ export class MmHeader {
     return (
       <Host>
         <header class='bg-light-base color-dark-shade'>
+          <div class='navbar-brand'>
+            <img src='assets/logo.svg' />
+          </div>
           <h3>
             <span class='title'>Matthias Max</span>
             <span class='subtitle divider'>&nbsp;|&nbsp;</span>
