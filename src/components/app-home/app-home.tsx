@@ -87,27 +87,13 @@ export class AppHome {
         <ion-content>
           <mm-header />
           <section class='vh50 bg-light-base hero color-dark-base'>
-            {/* <div class='bg' innerHTML={bg} /> */}
-            {/* <img src='assets/legos.png' class='legos fly' /> */}
             <div class='content'>
               <div class='manifest'>
-                {/* <img src='assets/funnel.svg' /> */}
                 <div class='illustration' innerHTML={svg} />
                 {/* <h1>
                   „Focus on the <span class='value'>value</span> and everything
                   else will fall into place.
                 </h1> */}
-                {/* <p>
-                  Developing digital products is <u>not a static</u> task. It's
-                  a continuous stream of aspects to be considered, evaluated and
-                  implemented. Using technology for our business needs is
-                  crucial. But technology is developing rapidly and is sometimes
-                  hard to keep up pace with.
-                </p>
-                <p>
-                  I help companies to leverage web technologies to their
-                  advantage and create real business value.
-                </p> */}
               </div>
             </div>
           </section>
@@ -115,7 +101,7 @@ export class AppHome {
             <div class='content padding-side-3 text-center padding-bm-22'>
               <h2>Hi, I'm Matthias. Great to meet you.</h2>
               <p>
-                Building digital products is <u>not a static</u> task. It's a
+                Building digital products is not a static task. It's a
                 continuous stream of aspects to be considered, evaluated and
                 implemented. Using technology for our business needs is crucial.
                 But technology is developing rapidly and is sometimes hard to
