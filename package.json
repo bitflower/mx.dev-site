@@ -13,7 +13,8 @@
     "prod": "stencil build --prod --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watch",
-    "generate": "stencil generate"
+    "generate": "stencil generate",
+    "icons": "pwa-asset-generator src/assets/logo.svg src/assets/icons -m src/manifest.json -f -i src/index.html"
   },
   "dependencies": {
     "@ionic/core": "^4.11.5"
@@ -21,6 +22,7 @@
   "devDependencies": {
     "@stencil/core": "^1.8.1",
     "@stencil/sass": "^1.1.1",
+    "pwa-asset-generator": "^2.1.2",
     "workbox-build": "4.3.1"
   }
 }
