@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="742px" height="186px" viewBox="0 0 742 186" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>funnel</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="funnel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="all-technologies" transform="translate(-123.000000, 16.000000)" fill-rule="nonzero" stroke="#7510F7" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+            <g id="selected-technologies" transform="translate(225.000000, 0.000000)">
+                <path d="M66,131.625 C167.333333,131.625 218,131.625 218,131.625" id="technology"></path>
+                <path d="M13,73.125 C114.333333,73.125 165,73.125 165,73.125" id="technology"></path>
+                <path d="M89,50.075 C190.333333,50.075 241,50.075 241,50.075" id="technology"></path>
+                <path d="M165,20.625 C266.333333,20.625 317,20.625 317,20.625" id="technology"></path>
+                <path d="M0,0.125 C101.333333,0.125 152,0.125 152,0.125" id="technology"></path>
+                <path d="M131,96.125 C232.333333,96.125 283,96.125 283,96.125" id="technology"></path>
+            </g>
+        </g>
+        <rect id="hide-lines" fill="#FFFFFF" fill-rule="nonzero" x="360" y="0" width="382" height="186"></rect>
+        <path d="M504.026312,111.426982 C504.733984,111.062794 505.51837,110.872802 506.314254,110.872802 L537.5,110.872802 C538.604569,110.872802 539.5,109.977372 539.5,108.872802 L539.5,80.6952929 C539.5,79.5907234 538.604569,78.6952929 537.5,78.6952929 L506.361457,78.6952929 C505.522606,78.6952929 504.697236,78.4842429 503.961349,78.0815763 L364.460043,1.7485723 C364.165688,1.58750566 363.83554,1.50308566 363.5,1.50308566 C362.395431,1.50308566 361.5,2.39851616 361.5,3.50308566 L361.5,181.496391 C361.5,181.814744 361.575997,182.128499 361.721672,182.411567 C362.22711,183.393711 363.433033,183.780157 364.415177,183.274719 L504.026312,111.426982 Z" id="funnel-layer" stroke="#7510F7" stroke-width="3" fill-rule="nonzero"></path>
+        <g id="word-bubble" transform="translate(1.000000, 13.000000)" font-family="Montserrat-Bold, Montserrat" font-size="16" font-weight="bold">
+            <text id="NEEDS" fill="#7510F7">
+                <tspan x="57.284" y="133">NEEDS</tspan>
+            </text>
+            <text id="IDEAS" fill="#7510F7">
+                <tspan x="296.468" y="15">IDEAS</tspan>
+            </text>
+            <text id="GOALS" fill="#8200FF">
+                <tspan x="225.452" y="160">GOALS</tspan>
+            </text>
+            <text id="MARKET" fill="#7510F7">
+                <tspan x="280.316" y="77">MARKET</tspan>
+            </text>
+            <text id="DESIGN" fill="#7510F7">
+                <tspan x="4.352" y="24">DESIGN</tspan>
+            </text>
+            <text id="UX" fill="#7510F7">
+                <tspan x="0.432" y="88">UX</tspan>
+            </text>
+            <text id="TECHNOLOGY" fill="#7510F7">
+                <tspan x="116.46" y="35">TECHNOLOGY</tspan>
+            </text>
+        </g>
+        <path d="M612.5,127.5 C628.81813,127.5 654.878669,132.564861 666.5,127.5 C681.23126,121.079755 681.5,112.30557 681.5,101.5 C681.5,82.1700338 646.003078,63.5 609,63.5 C596.302587,63.5 581.077146,66.5684602 571.5,69 C553.167219,73.6545067 552,82.8030106 552,95.5 C552,114.829966 575.496922,127.5 612.5,127.5 Z" id="value-bubble" fill="#7510F7" fill-rule="nonzero"></path>
+        <text id="VALUE" font-family="Montserrat-Bold, Montserrat" font-size="24" font-weight="bold" fill="#FFFFFF">
+            <tspan x="576.324" y="102">VALUE</tspan>
+        </text>
+        <path d="M654,74 L698,36" id="anchor" stroke="#7510F7" stroke-linecap="square" fill-rule="nonzero"></path>
+        <text id="Your-digital-product" font-family="Montserrat-Regular, Montserrat" font-size="14" font-weight="normal" fill="#8200FF">
+            <tspan x="598.119" y="32">Your digital product</tspan>
+        </text>
+    </g>
+</svg>

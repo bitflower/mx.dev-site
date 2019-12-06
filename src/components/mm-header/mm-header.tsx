@@ -12,7 +12,10 @@ export class MmHeader {
           <h3>
             <span class='title'>Matthias Max</span>
             <span class='subtitle divider'>&nbsp;|&nbsp;</span>
-            <span class='subtitle'>Digital Product Developer</span>
+            {/* <span class='subtitle'>
+              Creating value through technology since 2001
+            </span> */}
+            <span class='subtitle'>Building digital products since 2001</span>
           </h3>
         </header>
       </Host>
