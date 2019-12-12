@@ -17,18 +17,9 @@
   margin: 0 auto;
   text-align: center;
   position: relative;
-  @media screen and (min-width: $break-large) {
-    // margin-right: 0;
-    // text-align: right;
-    // &:before {
-    //   position: absolute;
-    //   content: ' ';
-    //   height: 50%;
-    //   width: 2px;
-    //   background-color: var(--mm-color-primary-base);
-    //   left: 0;
-    //   top: 25%;
-    // }
+  @media screen and (max-width: $break-large) {
+    width: 100%;
+    padding: var(--mm-padding);
   }
   // @media screen and (max-width: $break-large) {
   //   padding: calc(var(--mm-padding) * 3);
@@ -119,8 +110,14 @@
 .row {
   display: flex;
   justify-content: space-around;
+  @media screen and (max-width: $break-large) {
+    flex-direction: column;
+  }
   .col {
     flex: 0 calc(100% / 3);
+    @media screen and (max-width: $break-large) {
+      flex: 0 100%;
+    }
   }
 }
 

@@ -10,6 +10,10 @@ mm-header {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    @media screen and (max-width: $break-large) {
+      flex-direction: column;
+      padding: calc(var(--mm-padding) * 2); // var(--mm-padding);
+    }
   }
   h3 {
     margin: 0;
@@ -17,10 +21,18 @@ mm-header {
     padding: 65px 48px 65px 48px;
     flex-grow: 1;
     word-break: break-word;
+    @media screen and (max-width: $break-large) {
+      padding: 30px;
+      margin-top: 90px;
+    }
   }
   .navbar-brand {
     height: 48px;
     flex-grow: 0;
+    @media screen and (max-width: $break-large) {
+      width: 100%;
+    }
+
     img {
       max-height: 100%;
     }
@@ -28,23 +40,23 @@ mm-header {
   .title {
     text-transform: uppercase;
     white-space: nowrap;
-    @media screen and (max-width: $break-large) {
-      padding-bottom: 30px;
-      display: inline-block;
-      font-size: 135%;
-    }
+    // @media screen and (max-width: $break-large) {
+    //   padding-bottom: 30px;
+    //   display: inline-block;
+    //   font-size: 135%;
+    // }
   }
   .subtitle {
     font-weight: 400;
     margin-left: 1px;
     white-space: nowrap;
-    @media screen and (max-width: $break-large) {
-      display: inline-block;
-      width: 100%;
-      white-space: normal;
-      font-size: 51%;
-      transform: translateY(-94px);
-    }
+    // @media screen and (max-width: $break-large) {
+    //   display: inline-block;
+    //   width: 100%;
+    //   white-space: normal;
+    //   font-size: 51%;
+    //   transform: translateY(-94px);
+    // }
   }
 
   .divider {
