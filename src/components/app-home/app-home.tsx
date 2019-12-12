@@ -100,17 +100,33 @@ export class AppHome {
           <section class='bg-primary-base matt color-light-shade'>
             <div class='content padding-side-3 text-center padding-bm-22'>
               <h2>Hi, I'm Matthias. Great to meet you.</h2>
+              {/* <p>Ever since Technology drives value creation</p> */}
               <p>
+                Using technology to create business value is crucial. The
+                leverage it provides is essential and company owners have to
+                re-align their business models around it. Nevertheless, the
+                challenges to utilize it effectively are growing.
+              </p>
+              <p>
+                A continuous stream of aspects must be considered, evaluated and
+                continuously implemented. Building digital products is not a
+                static task - it's a method, a mindset, a culture.
+              </p>
+              {/* <p>
                 Building digital products is not a static task. It's a
                 continuous stream of aspects to be considered, evaluated and
                 implemented. Using technology for our business needs is crucial.
                 But technology is developing rapidly and is sometimes hard to
                 keep up pace with.
-              </p>
+              </p> */}
               <p>
+                I help companies to harness web technologies to their
+                competitive advantage and create unique business value.
+              </p>
+              {/* <p>
                 I help companies to leverage web technologies to their advantage
                 and create real business value.
-              </p>
+              </p> */}
               {/* <p>
                 For the last 5 years I’ve been building enterprise application
                 for large corporations. Happily switching between requirements
