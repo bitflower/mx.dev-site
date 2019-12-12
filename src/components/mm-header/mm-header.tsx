@@ -18,7 +18,10 @@ export class MmHeader {
             {/* <span class='subtitle'>
               Creating value through technology since 2001
             </span> */}
-            <span class='subtitle'>Building digital products since 2001</span>
+            {/* <span class='subtitle'>Business value through technology</span> */}
+            {/* <span class='subtitle'>Building </span> */}
+            <span class='subtitle'>Creator of digital value</span>
+            {/* <span class='subtitle'>Building digital products since 2001</span> */}
           </h3>
         </header>
       </Host>

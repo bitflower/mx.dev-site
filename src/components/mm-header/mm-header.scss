@@ -6,17 +6,21 @@ mm-header {
     // position: absolute;
     display: flex;
     width: 100%;
+    max-width: 1200px;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
   }
   h3 {
     margin: 0;
     text-align: center;
-    padding: 65px;
+    padding: 65px 48px 65px 48px;
+    flex-grow: 1;
     word-break: break-word;
   }
   .navbar-brand {
     height: 48px;
+    flex-grow: 0;
     img {
       max-height: 100%;
     }

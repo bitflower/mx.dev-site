@@ -13,7 +13,7 @@
 }
 
 .manifest {
-  width: 1200px;
+  width: 1024px;
   margin: 0 auto;
   text-align: center;
   position: relative;
@@ -109,8 +109,23 @@
   background-color: var(--mm-color-light-base);
   padding: calc(var(--mm-padding) * 3);
   border-radius: calc(var(--mm-padding) * 3);
+  // box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .matt {
   padding-top: 120px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  .col {
+    flex: 0 calc(100% / 3);
+  }
+}
+
+.offer-block {
+  padding: calc(var(--mm-padding) * 2);
+  border-left: 2px solid var(--mm-color-primary-base);
+  font-size: calc(var(--mm-font-size-base) - 2px);
 }

@@ -151,15 +151,65 @@ export class AppHome {
           <section class='vh50 bg-light-base'>
             <div class='content wide overlap'>
               <div class='bg-light-base box overlap-container'>
-                <h2>More ...</h2>
-                <p>
-                  Since beginning my journey as a freelance designer nearly 8
-                  years ago, I've done remote work for agencies, consulted for
-                  startups, and collaborated with talented people to create
-                  digital products for both business and consumer use. I'm
-                  quietly confident, naturally curious, and perpetually working
-                  on improving my chops one design problem at a time.
-                </p>
+                <h2 class='text-center'>What I offer</h2>
+                <div class='row'>
+                  <div class='col'>
+                    <h3>Development.</h3>
+                    <p class='offer-block'>
+                      I love to stay up to date. The best development you can
+                      get however is not always built solely on top of the
+                      latest and greatest stacks.
+                      <br />
+                      <br />A balanced mix of old and new to meet the product
+                      needs has never let me down in the past. I like to have
+                      full control over all aspects of a system. Open-source
+                      creates a perfect ratio of involvement for this.
+                      <br />
+                      <br />
+                      18 years of development have taught me some tricks here
+                      and there. Let's get started and assemble the right bricks
+                      for your digital endeavor.
+                    </p>
+                  </div>
+                  <div class='col'>
+                    {' '}
+                    <h3>Product & Architecture.</h3>
+                    <p class='offer-block'>
+                      It so important to know WHAT to build. Long before we ask
+                      the question of HOW to build it.
+                      <br />
+                      <br />
+                      Because we'd better been off building nothing than
+                      building the wrong thing.
+                      <br />
+                      <br />
+                      Requirements centered around real market and users needs
+                      lead to successful digital projects more then anything
+                      else.
+                      <br />
+                      <br />I support companies getting their products right by
+                      writing technical requirements, translating industry
+                      jargon into code and architecure, boil down feature
+                      descriptions to their bare and efficient minimum, look for
+                      consistency in UX <br />
+                      💪 building bridges between the business and tech world
+                      one sprint at a time.
+                      <br />
+                      <br />
+                      Mantra: A prototype says more then a 1000 pptx.
+                    </p>
+                  </div>
+                  <div class='col'>
+                    {' '}
+                    <h3>Management & Strategy.</h3>
+                    <p class='offer-block'>
+                      Quality, Mentoriing, Coaching, empowerment..
+                      <br />
+                      'm looking forward to contributing to your vision.
+                      handling developers and teams, coaching
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
