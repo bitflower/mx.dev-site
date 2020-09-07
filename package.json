@@ -17,6 +17,9 @@
     "generate": "stencil generate",
     "icons": "pwa-asset-generator src/assets/logo.svg src/assets/icons -m src/manifest.json -f -i src/index.html"
   },
+  "engines": {
+    "node": ">=14"
+  },
   "dependencies": {
     "@ionic/core": "^4.11.5"
   },
