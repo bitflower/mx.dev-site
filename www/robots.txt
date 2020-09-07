@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://hungry-agnesi-fdd5ab.netlify.com/sitemap.xml

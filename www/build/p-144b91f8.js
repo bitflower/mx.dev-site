@@ -1,0 +1,1 @@
+import{s as o}from"./p-5aff386c.js";import{i as s}from"./p-049b04eb.js";const m=()=>{s(),o(o=>"ION-ICON"===o.tagName?o.mode||o.getAttribute("mode"):null)};export{m as g}

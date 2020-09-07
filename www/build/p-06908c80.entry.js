@@ -1,0 +1,1 @@
+import{r as o,h as s,H as r}from"./p-5aff386c.js";import{g as t}from"./p-049b04eb.js";import"./p-c090076e.js";import{c}from"./p-daa122f2.js";const a=class{constructor(s){o(this,s)}render(){const o=t(this);return s(r,{class:Object.assign(Object.assign({},c(this.color)),{[o]:!0})},s("slot",null))}};a.style=":host(.ion-color){color:var(--ion-color-base)}";export{a as ion_text}

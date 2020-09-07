@@ -1,0 +1,1 @@
+import{r as s,h as t,a as r,H as i}from"./p-5aff386c.js";import{n as a}from"./p-ad3d45f8.js";const o=class{constructor(t){s(this,t),this.routerDirection="forward",this.onClick=()=>a(this.el,this.routerDirection,this.component,this.componentProps)}render(){return t(i,{onClick:this.onClick})}get el(){return r(this)}};export{o as ion_nav_link}
